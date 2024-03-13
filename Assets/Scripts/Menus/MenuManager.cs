@@ -40,7 +40,7 @@ public class MenuManager : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene("MapTestIA");
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void Quit()

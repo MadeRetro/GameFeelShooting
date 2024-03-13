@@ -21,7 +21,7 @@ public class ASyncLoader : MonoBehaviour
 
     IEnumerator LoadLevelAsync()
     {
-        AsyncOperation loadOperation = SceneManager.LoadSceneAsync("MapTestIA");
+        AsyncOperation loadOperation = SceneManager.LoadSceneAsync("SampleScene");
 
         while (!loadOperation.isDone)
         {
